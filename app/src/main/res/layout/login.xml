@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottle_day_bg"
+    android:gravity="center">
+
+    <!--<TextView-->
+        <!--text-->
+        <!--android:gravity="center"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textSize="30sp"-->
+        <!--android:text="Waitting for you"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+    <ImageView
+        android:background="@drawable/bottle_picked_voice_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <com.bit_zt.proj_socket.View.InputBox
+        android:id="@+id/inputBox_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </com.bit_zt.proj_socket.View.InputBox>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    
+    <com.bit_zt.proj_socket.View.InputBox
+        android:id="@+id/inputBox_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></com.bit_zt.proj_socket.View.InputBox>
+
+    <Button
+        android:id="@+id/login"
+        android:textColor="#ffffffff"
+        android:text="Login"
+        android:background="@drawable/selector_bt_login"
+        android:layout_marginTop="40dp"
+        android:layout_width="150dp"
+        android:layout_height="40dp" />
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:id="@+id/register"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffffff"
+        android:background="@android:color/transparent"
+        android:text="Register"
+        android:layout_width="100dp"
+        android:layout_height="30dp" />
+
+</LinearLayout>

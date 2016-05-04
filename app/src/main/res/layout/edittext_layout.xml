@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@drawable/edittext_layout_bg">
+
+    <ImageView
+        android:id="@+id/InputBox_img"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="clip_vertical"
+        android:src="@drawable/mm_title_btn_contact_normal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <EditText
+        android:id="@+id/InputBox_edittext"
+        android:inputType="text"
+        android:singleLine="true"
+        android:maxLength="10"
+        android:textColor="#aaffffff"
+        android:hint="Account"
+        android:paddingLeft="50dp"
+        android:background="#00000000"
+        android:layout_width="250dp"
+        android:layout_height="50dp" />
+
+</LinearLayout>

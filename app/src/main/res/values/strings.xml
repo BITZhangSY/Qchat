@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Qchat</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="titlebar_background_color">#222222</string>
+    <string name="bottombar_white">#ffffff</string>
+
+    <string name="action_add">添加</string>
+    <string name="action_search">查找</string>
+    <string name="menu_group_chat">参与群聊</string>
+    <string name="menu_feedback">意见反馈</string>
+    <string name="menu_addfriend">添加朋友</string>
+    <string name="menu_scan">扫一扫</string>
+
+    <string name="save">保存</string>
+
+    <string name="about_Qchat">&#160;&#160;&#160;&#160;&#160;&#160;"Qchat"是一款同一路由器互联下的socket手机聊天软件,
+                                支持登录注册,群聊,通讯录管理,个人信息管理等功能.</string>
+
+    <string name="Mark">2015 winter-semester Lesson-Java task</string>
+    <string name="developer_info">张滔  1120131939</string>
+    <string name="version">Qchat Android v1.0.0</string>
+
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_pressd">
+
+    <com.bit_zt.proj_socket.View.TitleBarLayout
+        android:id="@+id/titleBarLayout_aboutQchat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.bit_zt.proj_socket.View.TitleBarLayout>
+
+    <ImageView
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/account_avatar_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:text="@string/about_Qchat"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/grey_text"
+            android:textSize="13sp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/Mark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/grey_text"
+            android:textSize="10sp"
+            android:layout_marginBottom="3dp"
+            android:text="@string/version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/grey_text"
+            android:textSize="10sp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/developer_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>

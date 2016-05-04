@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bit_zt.proj_socket" >
+
+    <!-- for serverTest-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!-- for headshow choose-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".Common.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/account_avatar_default"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity android:name=".MainModule.Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:launchMode="singleTask"
+            android:name=".MainModule.MainActivity"
+            android:label="@string/app_name" >
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <activity android:name=".MainModule.Login"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden">
+
+        </activity>
+
+        <!--
+            避免edittext输入框被软键盘遮挡
+            android:windowSoftInputMode="stateVisible|adjustResize"
+            进入界面时默认不弹出软键盘
+            adjustUnspecified|stateHidden
+        -->
+        <activity
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize"
+            android:name=".SubModuleActivity.ChatInterface"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name=".SubModuleActivity.AddFriends"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden">
+        </activity>
+
+        <activity
+            android:name=".SubModuleActivity.PersonalSettings"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name=".SubModuleActivity.ChangeMyInfo"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name=".SubModuleActivity.AboutQchat"
+            android:label="@string/app_name" >
+        </activity>
+
+        <service
+            android:name=".MainModule.SocketService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.bit_zt.proj.SocketService"></action>
+            </intent-filter>
+        </service>
+
+
+
+
+
+    </application>
+
+</manifest>

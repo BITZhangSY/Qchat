@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="titlebar_background">#222222</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="grey_pressd">#eeeeee</color>
+    <color name="grey_tab3_text">#666666</color>
+
+    <color name="grey_pressed">#cccccc</color>
+
+    <color name="grey_text">#999999</color>
+
+    <color name="letter">#77000000</color>
+
+    <color name="grey_bg">#dddddd</color>
+    
+</resources>

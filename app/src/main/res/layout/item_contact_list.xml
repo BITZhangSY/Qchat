@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/selector_bt_tab">
+
+    <LinearLayout
+        android:id="@+id/contacts_catalogLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:background="@color/grey_pressd"
+        android:orientation="vertical" >
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:id="@+id/contacts_catalog"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textColor="@color/grey_text"
+            android:text="A"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/selector_bt_tab">
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/contacts_photo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/mini_avatar_shadow"/>
+
+        <TextView
+            android:id="@+id/contacts_friend"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:text="hhhh" />
+    </LinearLayout>
+
+</LinearLayout>

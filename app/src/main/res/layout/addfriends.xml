@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <com.bit_zt.proj_socket.View.TitleBarLayout
+        android:id="@+id/titleBarLayout_addFriends"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.bit_zt.proj_socket.View.TitleBarLayout>
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.bit_zt.proj_socket.View.InputBox
+            android:id="@+id/inputBox_addAccount"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </com.bit_zt.proj_socket.View.InputBox>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.bit_zt.proj_socket.View.InputBox
+            android:id="@+id/inputBox_addNickname"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </com.bit_zt.proj_socket.View.InputBox>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
